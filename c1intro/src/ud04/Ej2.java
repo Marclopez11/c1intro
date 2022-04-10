@@ -1,45 +1,36 @@
 package ud04;
 
+/*
+ * Marc Lopez
+ * Java 1.8
+ * 
+ * */
+
 public class Ej2 {
 
 	public static void main(String[] args) {
-		
-		int n = 1;
-		double a = 1.1;
-		char c = 'a';
-		
-		double suma;
-		double resta;
-		int valornumerico;
 
-		
-		
-		System.out.println("Variable n "+n);
-		System.out.println("Variable a "+a);
-		System.out.println("Variable c "+c);
-		
-		
-		//suma +
-		suma = n+a;
-		System.out.println("Sumas de N+A "+suma);
-		
-		//Resta -
-		resta = n-a;
-		System.out.println("Resta de A-N "+resta);
-		
-		// Valor numerico convertir char a int
-		valornumerico = c;
-		System.out.println("Valor numerico de C "+valornumerico);
-		
-		
+		// Creación de un objeto integer usando el segundo constructor
+		Integer num1 = new Integer("125");
 
-		
-		
-		
+		// Creación de un objeto integer usando el segundo constructor
+		Integer num2 = new Integer(20);
 
-		
-		
-		
+		// Obtencion del entero que almacena cada objeto integer.
+		// Si no se hace esto, las lineas siguientes causaran un errror de copilado
+
+		int n1 = num1.intValue();
+		int n2 = num2.intValue();
+
+		System.out.println("Suma de " + n1 + " y " + n2 + " vale " + (n1 + n2));
+
+		if (n1 + n2 > 130) {
+			n1++;
+		} else {
+			n1--;
+		}
+
+		System.out.println(n1);
 
 	}
 

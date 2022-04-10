@@ -1,44 +1,25 @@
 package ud04;
-
+/*
+ * Marc Lopez
+ * Java 1.8
+ * 
+ * */
 public class Ej4 {
 	
 	
 
 
+	 public static void main(String[] args) {
+	        //System.out.println();
+	        //System.out.println("Adios");
+	        //System.out.println("FIN DE PROGRAMA");
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-		int n = 1;
-		int resta ;
-		int multi = 1;
+	        for(int i = 0; i<6;i++){
+	            System.out.println(i+"");
+	            System.out.println("FIN DE PROGRAMA");
 
-		
-		n+=77;
-		resta=n-3 ;
-		multi=resta*2 ;
-
-		System.out.println(n);
-		System.out.println(resta);
-		System.out.println(multi);
-
-		
-		
-		
-		
-		
-		
-		
-		
-	
-
-		
-		
-		
-		
-		
-		
-	}
+	        }
+	    }
 
 
 }
